@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+  :root {
+      --color-primary: #9c2d4e;
+      --color-accent: #38BDF8;
+      --color-bg: #F8FAFC;
+      --color-text: #000000;
+      --color-muted: #64748B;
+      --font-main: Arial, Helvetica, sans-serif;
+      --font-code: Consolas, "Courier New", monospace;
+  }
+
+body {
+    font-family: var(--font-main);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 30px 20px 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: var(--color-white);
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+header h1 {
+    text-align: justify;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+nav a {
+    transition: background-color 0.3s ease;
+}
