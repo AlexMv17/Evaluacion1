@@ -7,31 +7,33 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<header>
-    <img src="./assets/logo.jpg" alt="" width="80" height="70"> 
-    <nav>
-        <a href="#sobre-mi">Sobre mi</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <h1>Hola, soy Luis Mora Vallejos</h1>
-    <p>Estudiante de Ingenieria Informatica</p>
-</header>
-<main>
-    <section id="sobre-mi">
-        <h2>Sobre mi</h2>
+<header class="header">
+        <div class="logo-contenedor">
+            <div class="logo">LM</div>
+            <span class="nombre">Luis Mora Vallejos</span>
+        </div>
 
-        <article>Mi nombre es Luis Mora Vallejos y soy estudiante de Ingenieria Informatica</article>
+        <nav class="nav a">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-        <aside>
-            Datos Personales
-            Edad: 23 años
-            Ciudad: Penco, Chile
-            Email: luismora@gmail.com
-            Carrera: Ingenieria Informatica
-            Intereses: 
-        </aside>
+    <section class="principal">
+        <div class="texto">
+            <h1>Hola, soy <span>Luis Mora Vallejos</span></h1>
+            <h3>Estudiante de Ingenieria Informatica</h3>
+            <p>
+                Apasionado por crear experiencias web modernas y accesibles.
+                Actualmente cursando la carrera de Ingenieria Informatica en INACAP.
+            </p>
+        </div>
+
+        <div class="imagen">
+            <img src="./assets/images.jpg" alt="Foto de perfil">
+        </div>
     </section>
 
     <section id="habilidades">
