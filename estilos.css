@@ -487,19 +487,5 @@ textarea {
     color: rgba(255,255,255,0.8);
 }
 
-/* tablet */
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* celular */
-@media (max-width: 480px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 
  
