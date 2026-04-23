@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<header class="header">
+    <header class="header">
         <div class="logo-contenedor">
             <div class="logo">LM</div>
             <span class="nombre">Luis Mora Vallejos</span>
@@ -21,6 +21,8 @@
         </nav>
     </header>
 
+<main>
+
     <section class="principal">
         <div class="texto">
             <h1>Hola, soy <span>Luis Mora Vallejos</span></h1>
@@ -32,7 +34,7 @@
         </div>
 
         <div class="imagen">
-            <img src="./assets/images.jpg" alt="Foto de perfil">
+            <img src="./assets/perfil/images.jpg" alt="Foto de perfil">
         </div>
     </section>
 
@@ -56,9 +58,9 @@
                 Actualmente me encuentro <em>aprendiendo HTML5, CSS3 y JavaScript</em>, con el objetivo de convertirme en un desarrollador front-end profesional.
             </p>
 
-            <div class="frase">
+            <blockquote class="frase">
                 «El único modo de hacer un gran trabajo es amar lo que haces.» — Steve Jobs
-            </div>
+            </blockquote>
         </article>
 
         <!-- TARJETA -->
@@ -176,7 +178,7 @@
         <div class="grid">
 
         <figure class="card">
-            <div><img src="./assets/Youtube.png" alt="Youtube" width="220px" height="200px"></div>
+            <div><img src="./assets/Proyectos/Youtube.png" alt="Youtube" width="220px" height="200px"></div>
             <figcaption>
                 <p class="tipo">Proyecto web - Plataforma de videos</p>
                 <h3>YouTube</h3>
@@ -186,7 +188,7 @@
         </figure>
 
         <figure class="card">
-            <div><img src="./assets/Solotodo.jpg" alt="Solotodo" width="220px" height="200px"></div>
+            <div><img src="./assets/Proyectos/Solotodo.jpg" alt="Solotodo" width="220px" height="200px"></div>
             <figcaption>
                 <p class="tipo">Proyecto web - Blog personal</p>
                 <h3>Solotodo</h3>
@@ -196,7 +198,7 @@
         </figure>
 
         <figure class="card">
-            <div><img src="./assets/Netflix.png" alt="Netflix" width="260px" height="200px"></div>
+            <div><img src="./assets/Proyectos/Netflix.png" alt="Netflix" width="260px" height="200px"></div>
             <figcaption>
                 <p class="tipo">Proyecto web - Streaming</p>
                 <h3>Netflix</h3>
@@ -206,7 +208,7 @@
         </figure>
 
         <figure class="card">
-            <div><img src="./assets/Mercado-Libre.png" alt="Mercado Libre" width="260px" height="160px"></div>
+            <div><img src="./assets/Proyectos/Mercado-Libre.png" alt="Mercado Libre" width="260px" height="160px"></div>
             <figcaption>
                 <p class="tipo">Proyecto web - E-commerce</p>
                 <h3>Mercado Libre</h3>
@@ -216,7 +218,7 @@
         </figure>
 
         <figure class="card">
-            <div><img src="./assets/google.png" alt="Google" width="260px" height="160px"></div>
+            <div><img src="./assets/Proyectos/google.png" alt="Google" width="260px" height="160px"></div>
             <figcaption>
                 <p class="tipo">Proyecto web - Motor de búsqueda</p>
                 <h3>Google</h3>
@@ -226,7 +228,7 @@
         </figure>
 
         <figure class="card">
-            <div><img src="./assets/wikipedia.jpg" alt="Wikipedia" width="260px" height="160px"></div>
+            <div><img src="./assets/Proyectos/wikipedia.jpg" alt="Wikipedia" width="260px" height="160px"></div>
             <figcaption>
                 <p class="tipo">Proyecto web - Enciclopedia</p>
                 <h3>Wikipedia</h3>
@@ -254,18 +256,18 @@
             <div class="fila">
                 <div class="grupo">
                     <label for="nombre">Nombre completo</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
                 </div>
 
                 <div class="grupo">
                     <label for="email">Correo electrónico</label>
-                    <input type="email" id="email" name="email" placeholder="tu@email.com">
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
                 </div>
             </div>
 
             <div class="grupo">
                 <label for="asunto">Asunto</label>
-                <select id="asunto" name="asunto">
+                <select id="asunto" name="asunto" required>
                     <option value="">Selecciona un asunto</option>
                     <option value="consulta">Consulta general</option>
                     <option value="colaboracion">Colaboración</option>
@@ -275,7 +277,7 @@
 
             <div class="grupo">
                 <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
             </div>
 
             <button type="submit">Enviar mensaje</button>
@@ -283,13 +285,13 @@
         </form>
 
         <!-- INFO CONTACTO -->
-        <div class="info-contacto">
+        <aside class="info-contacto">
             <p><strong>Información de contacto</strong></p>
-            <p><img src="./assets/gmail.png" alt="Gmail" width="20px" height="20px"> luismora@gmail.com</p>
-            <p><img src="./assets/bandera.png" alt="Chile" width="20px" height="20px"> Penco, Chile</p>
-            <p><img src="./assets/telefono.jpg" alt="Teléfono" width="20px" height="20px"> Teléfono: +56 9 1234 5678</p>
-            <p><img src="./assets/github.png" alt="GitHub" width="25px" height="25px">github.com/AlexMv17</p>
-        </div>
+            <p><img src="./assets/contacto/gmail.png" alt="Gmail" width="20px" height="20px"> luismora@gmail.com</p>
+            <p><img src="./assets/contacto/bandera.png" alt="Chile" width="20px" height="20px"> Penco, Chile</p>
+            <p><img src="./assets/contacto/telefono.jpg" alt="Teléfono" width="20px" height="20px"> Teléfono: +56 9 1234 5678</p>
+            <p><img src="./assets/contacto/github.png" alt="GitHub" width="25px" height="25px">github.com/AlexMv17</p>
+        </aside>
     </section>
 </main>
 <footer class="footer">
